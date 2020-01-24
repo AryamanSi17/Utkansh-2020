@@ -195,6 +195,30 @@ h2
     color: aliceblue;
 }
 
+.orLine{
+    margin-top: 4.2%;
+    color: grey;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1.9px solid slategrey;
+  }
+
 /*------------------------------------------------------------
 # homepage-next-events
 ------------------------------------------------------------*/
@@ -605,7 +629,7 @@ h2
 
 .btn-facebook {
   color: white;
-  background-color: #3b5998;
+  background-color: #2e3045;
 }
 
 /* Fallback for Edge
