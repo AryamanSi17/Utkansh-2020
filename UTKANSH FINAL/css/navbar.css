@@ -222,7 +222,7 @@ Main components
   transition: visibility 0s, opacity 0.3s;
 }
 .cd-primary-nav li {
-  margin: 1.2em 0;
+  margin: 0.8em 2em;
   text-align: center;
   text-transform: capitalize;
   z-index: 100;
@@ -247,7 +247,7 @@ Main components
 }
 @media only screen and (min-width: 768px) {
   .cd-primary-nav li {
-    margin: 2em 0;
+    margin: 1.5em 0;
   }
   .cd-primary-nav a {
     font-size: 28px;
@@ -256,7 +256,7 @@ Main components
 }
 @media only screen and (min-width: 1170px) {
   .cd-primary-nav li {
-    margin: 2.6em 0;
+    margin: 1.5em 0;
   }
     
   .cd-primary-nav a {
